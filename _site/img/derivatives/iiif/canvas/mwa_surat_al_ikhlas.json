@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/mwa_surat_al_ikhlas.json",
+  "label": "front",
+  "width": 3628,
+  "height": 2304,
+  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/mwa_surat_al_ikhlas/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/mwa_surat_al_ikhlas.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/mwa_surat_al_ikhlas/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/mwa_surat_al_ikhlas",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 1814,
+        "height": 1152
+      },
+      "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/mwa_surat_al_ikhlas.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/duvalier3_duvalier3a.json",
+  "label": "Page 1",
+  "width": 1236,
+  "height": 954,
+  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/duvalier3_duvalier3a/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/duvalier3_duvalier3a.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/duvalier3_duvalier3a/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/duvalier3_duvalier3a",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 618,
+        "height": 477
+      },
+      "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/duvalier3_duvalier3a.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
